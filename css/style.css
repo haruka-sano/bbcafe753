@@ -3,13 +3,39 @@
 img, div { behavior: url(../iepngfix.htc) }
 
 body {
-	    overflow:hidden;
-	
 	    padding:0;margin:0;
-	    height:100%;width:100%;
-
+	    height:100vh;width:100%;
+		overflow: scroll;
+		font-family: "Helvetica Neue",
+		Arial,
+		"Hiragino Kaku Gothic ProN",
+		"Hiragino Sans",
+		Meiryo,
+		sans-serif;
 	}
 
+.full div {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	margin: 0;
+}
+.full div.main01 {
+	background-image: url(../images/1280_blueberry2.jpg);
+}
+.full div.main02 {
+	background-image: url(../images/1280_blueberry3.jpg);
+}
+.full div.main03 {
+	background-image: url(../images/1280_blueberry4.jpg);
+}
+.full div.main04 {
+	background-image: url(../images/1280_blueberry5.jpg);
+}
+.full div.main05 {
+	background-image: url(../images/1280_blueberry6.jpg);
+}
 
 h1.main{
 	background: url(../images/nagomi.png);
@@ -145,10 +171,7 @@ left:48%;
 
 
 div#container{
-
-	margin: 0 auto;
-	width:940px;
-	
+	margin: 0 auto;	
 }
 
 div#container_sub{
@@ -180,10 +203,36 @@ div#container_sub{
 
 	 
 #maincontent {
-	  position:relative;
-z-index:2;
+	position:absolute;
+	z-index:2;
+	top: 0;	
+	left: 50%;
+    margin-left: -270px;
+}
+@media screen and (max-width:480px) { 
+	#contents{
+		background-color: transparent!important;
+		margin-left: 20px!important;
+		width: 100%!important;
+	}
+	#maincontent {
+		margin-left: -190px;
+	}
+	.float_right_logo{
+
+		float: none;
+		clear:none;
+		width:100%;
+	
 	
 	}
+	
+	.float_right_top{
+		float:none;
+		width:100%;
+	
+	}
+}
 
 #maincontent2 {
 	position: absolute;
@@ -208,7 +257,7 @@ z-index:2;
     background-image: none;
     background-position: 0 0;
     background-repeat: repeat;
-    margin-left: 400px;
+	margin: 0 auto;
     opacity: 0.9;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -269,7 +318,6 @@ z-index:2;
 	clear:both;
 	font-size: 12px;
 	text-align:left;
-	width:500px;
 	padding: 20px 0;
 	display:block;
 
@@ -292,9 +340,9 @@ z-index:2;
 
 #footer_top{
 	clear:both;
-	font-size: 12px;
+	font-size: 10px;
 	color: #777777;
-	text-align:right;
+	text-align:center;
 	}
 
 
@@ -302,5 +350,5 @@ z-index:2;
 	overflow: hidden;
 	font-size: 12px;
 	color: #777777;
-	text-align: right;
+	text-align: center;
 }

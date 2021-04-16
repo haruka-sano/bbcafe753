@@ -5,34 +5,29 @@ ul{font-size:14px;}
 
 ul#menu {
 	
-   margin: 0px; /* ul“à•”‚Ì¶’[—]”’‚ğÁ‚·(IE) */
-   padding: 0px; /* ul“à•”‚Ì¶’[—]”’‚ğÁ‚·(Fx,Op) */
+   margin: 0px; /* ulï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½[ï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(IE) */
+   padding: 0px; /* ulï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½[ï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(Fx,Op) */
 
 }
 ul#menu li {
 	text-decoration: none;
 	font-size: 48px;
    list-style-type: none; 
-   margin: 0.3em 0.5em; 
+   margin: 0 0.5em; 
    padding: 0px;
 }
 
 
-/* ƒƒjƒ…[€–Ú‚ÌƒŠƒ“ƒN‚ğ‘•ü */
+/* ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Ú‚Ìƒï¿½ï¿½ï¿½ï¿½Nï¿½ğ‘•ï¿½ */
 ul#menu li a {
-	font-size: 48px;
-	line-heigth: 150%;
+	font-size: 2rem;
+	line-height: 100%;
 	margin-top:30px;
 	list-style: none;
 	text-decoration: none;
 	color:#5a5a5a;
 }
 ul#menu li a:hover {
-	font-size: 48px;
-	line-heigth: 150%;
-	margin-top:30px;
-	list-style: none;
-	text-decoration: none;
 	color:#A0A2CF;
 }
 
@@ -42,8 +37,8 @@ ul#menu li a:hover {
 
 ul#menu_s {
 	
-   margin: 0px; /* ul“à•”‚Ì¶’[—]”’‚ğÁ‚·(IE) */
-   padding: 0px; /* ul“à•”‚Ì¶’[—]”’‚ğÁ‚·(Fx,Op) */
+   margin: 0px; /* ulï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½[ï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(IE) */
+   padding: 0px; /* ulï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½ï¿½[ï¿½]ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(Fx,Op) */
 
 }
 ul#menu_s li {
@@ -55,7 +50,7 @@ ul#menu_s li {
 }
 
 
-/* ƒƒjƒ…[€–Ú‚ÌƒŠƒ“ƒN‚ğ‘•ü */
+/* ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Ú‚Ìƒï¿½ï¿½ï¿½ï¿½Nï¿½ğ‘•ï¿½ */
 ul#menu_s li a {
 	font-size: 25px;
 	line-heigth: 150%;
