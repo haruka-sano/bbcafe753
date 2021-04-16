@@ -1,0 +1,78 @@
+/* menu */
+
+img, div { behavior: url(../iepngfix.htc) }
+ul{font-size:14px;}
+
+ul#menu {
+	
+   margin: 0px; /* ul内部の左端余白を消す(IE) */
+   padding: 0px; /* ul内部の左端余白を消す(Fx,Op) */
+
+}
+ul#menu li {
+	text-decoration: none;
+	font-size: 48px;
+   list-style-type: none; 
+   margin: 0.3em 0.5em; 
+   padding: 0px;
+}
+
+
+/* メニュー項目のリンクを装飾 */
+ul#menu li a {
+	font-size: 48px;
+	line-heigth: 150%;
+	margin-top:30px;
+	list-style: none;
+	text-decoration: none;
+	color:#5a5a5a;
+}
+ul#menu li a:hover {
+	font-size: 48px;
+	line-heigth: 150%;
+	margin-top:30px;
+	list-style: none;
+	text-decoration: none;
+	color:#A0A2CF;
+}
+
+
+/* submenu */
+
+
+ul#menu_s {
+	
+   margin: 0px; /* ul内部の左端余白を消す(IE) */
+   padding: 0px; /* ul内部の左端余白を消す(Fx,Op) */
+
+}
+ul#menu_s li {
+   list-style-type: none; 
+   margin: 0.5em 0.5em; 
+   padding: 0px;
+   font-size: 25px;
+   color:#A0A2CF;
+}
+
+
+/* メニュー項目のリンクを装飾 */
+ul#menu_s li a {
+	font-size: 25px;
+	line-heigth: 150%;
+	margin-top:30px;
+	list-style: none;
+	text-decoration: none;
+	color:#777777;
+}
+ul#menu_s li a:hover {
+	font-size: 25px;
+	line-heigth: 150%;
+	margin-top:30px;
+	list-style: none;
+	text-decoration: none;
+	color:#A0A2CF;
+
+
+
+
+}

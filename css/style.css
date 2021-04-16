@@ -1,0 +1,306 @@
+/* CSS Document */
+
+img, div { behavior: url(../iepngfix.htc) }
+
+body {
+	    overflow:hidden;
+	
+	    padding:0;margin:0;
+	    height:100%;width:100%;
+
+	}
+
+
+h1.main{
+	background: url(../images/nagomi.png);
+	width:256px;
+	height:193px;
+	clear:both;
+}
+
+h1.sub{
+	font-size: 13px;
+	line-height: 150%;
+	font-weight: bold;
+	color:#666666;
+}
+
+
+h2{
+	display: none;
+	
+}
+
+h3{
+	font-size: 16px;
+
+}
+
+h3.main{
+	font-size: 13px;
+	line-height: 150%;
+	font-weight: normal;
+
+}
+
+h3.sub{
+	font-size: 19px;
+	line-height: 150%;
+	font-weight: bold;
+	color:#4F4BC5;
+}
+
+a:link{
+	text-decoration:none;
+	color:#777777;
+}
+
+a:visited { text-decoration: none; color:#777777; }
+a:active { text-decoration: none; color:#777777; }
+a:hover { text-decoration: none; color:#A0A2CF; }
+
+hr.style1 {
+    border-top: 1px dotted #cccccc;width: 100%;
+    }
+
+
+.txt_title{
+	display:none;
+}
+
+.txt_title_sub{
+	font-size: 13px;
+	line-height: 150%;
+	font-weight: bold;
+	color:#666666;
+}
+
+.txt_w{
+	font-size: 13px;
+	font-weight: bold;
+	color:#e83f3f;
+}
+
+.txt1{
+	font-size: 13px;
+	line-height: 150%;
+
+}
+
+.txt2{
+	font-size: 13px;
+	line-height: 150%;
+	color:#666666;
+
+}
+
+.float_right{
+
+	float: right;
+	clear:both;
+
+}
+
+.float_right_logo{
+
+	float: right;
+	clear:both;
+	width:250px;
+
+
+}
+
+.float_right_top{
+	float:right;
+	width:250px;
+
+}
+
+
+.clear{
+
+	clear: both;
+
+}
+
+}
+.loader{
+position:absolute;
+z-index:9999;
+width:32px;
+height:32px;
+top:49%;
+left:48%;
+}
+
+.bgmaximage{
+    display:none;
+}
+
+
+.bgmaximage2{
+	  position:fixed !important;
+	 
+	}
+
+
+div#container{
+
+	margin: 0 auto;
+	width:940px;
+	
+}
+
+div#container_sub{
+
+	margin: 0 auto;
+	width:940px;
+	-moz-background-clip: border;
+    -moz-background-origin: padding;
+    -moz-background-size: auto auto;
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    background-attachment: scroll;
+    background-color: #FFFFFF;
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+    opacity: 0.9;
+    padding: 30px;
+    width: 940px;
+	filter:alpha(opacity:80);
+	margin-top:10px;
+	margin-bottom:10px;
+	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; /* internet explorer 8 */
+    filter: alpha(opacity=80); /* internet explorer 5~7 */
+	overflow: hidden;
+}
+
+	 
+#maincontent {
+	  position:relative;
+z-index:2;
+	
+	}
+
+#maincontent2 {
+	position: absolute;
+		width:100%;
+		top: 0;
+	  left: 0;
+	  z-index: 50;
+
+	}
+
+
+#contents{
+	-moz-background-clip: border;
+    -moz-background-origin: padding;
+    -moz-background-size: auto auto;
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    background-attachment: scroll;
+    background-color: #FFFFFF;
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+    margin-left: 400px;
+    opacity: 0.9;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    width: 500px;
+	filter:alpha(opacity:80);
+	overflow: hidden;
+}
+
+
+
+.right{
+	
+
+	float:right;
+}
+
+.left{
+	width: 300px;
+	float:left;
+}
+
+.left_02{
+	width: 420px;
+	float:left;
+	padding:0 0 0 20px;
+}
+
+.left_600{
+	width: 600px;
+	float:left;
+}
+
+.left_500{
+	width: 500px;
+	float:left;
+}
+
+.twitter{
+	width: 105px;
+	float:left;
+}
+
+.facebook{
+	width: 100px;
+	float:left;
+	border:none; overflow:hidden;
+}
+
+.main_s{
+	clear:both;
+}
+ 
+
+
+.news{
+	clear:both;
+	font-size: 12px;
+	text-align:left;
+	width:500px;
+	padding: 20px 0;
+	display:block;
+
+}
+
+.link {
+	overflow: hidden;
+}
+
+.link .linkimg{
+	float: left;
+	padding: 10px;
+	border: none;
+}
+
+.link span{
+	float: left;
+	padding-top: 40px;
+}
+
+#footer_top{
+	clear:both;
+	font-size: 12px;
+	color: #777777;
+	text-align:right;
+	}
+
+
+#footer{
+	overflow: hidden;
+	font-size: 12px;
+	color: #777777;
+	text-align: right;
+}
