@@ -211,7 +211,6 @@ div#container_sub{
 }
 @media screen and (max-width:480px) { 
 	#contents{
-		background-color: transparent!important;
 		margin-left: 20px!important;
 		width: 100%!important;
 	}
