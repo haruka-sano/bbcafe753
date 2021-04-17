@@ -211,8 +211,9 @@ div#container_sub{
 }
 @media screen and (max-width:480px) { 
 	#contents{
-		margin-left: 20px!important;
 		width: 100%!important;
+		padding-left: 0!important;
+		padding-right: 0!important;
 	}
 	#maincontent {
 		margin-left: -190px;
@@ -222,15 +223,25 @@ div#container_sub{
 		float: none;
 		clear:none;
 		width:100%;
-	
+	    margin-left: 20px;
 	
 	}
 	
 	.float_right_top{
 		float:none;
-		width:100%;
+		width: 90%;
+		margin-left: 20px;
 	
 	}
+	.twitter,.news {
+		margin-left: 20px;
+	}
+
+element.style {
+}
+#footer_top {
+	text-align: left!important;
+}
 }
 
 #maincontent2 {
